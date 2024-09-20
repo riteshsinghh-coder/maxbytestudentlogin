@@ -12,42 +12,50 @@ const Dashboard = ({ user }) => {
         <div key={index} style={{ marginBottom: '50px' }}>
           <h4>{course.courseName}</h4>
 
-          {/* Independent PDF Container 1 */}
+          {/* Flex Container for the two PDF previews */}
           <div style={{ 
-              width: '500px', 
-              height: '600px', 
-              border: '2px solid #333', 
-              margin: '20px auto', 
-              padding: '20px', 
               display: 'flex', 
-              flexDirection: 'column', 
-              alignItems: 'center' 
+              justifyContent: 'center', 
+              gap: '40px', // Space between the two containers
+              marginTop: '20px' 
             }}>
-            <Worker workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
-              <Viewer fileUrl={course.notesUrl0} />
-            </Worker>
-            <a href={course.notesUrl0} target="_blank" rel="noopener noreferrer" style={{ marginTop: '15px', fontWeight: 'bold' }}>
-              View Full PDF (CSS)
-            </a>
-          </div>
-          
-          {/* Independent PDF Container 2 */}
-          <div style={{ 
-              width: '500px', 
-              height: '600px', 
-              border: '2px solid #333', 
-              margin: '20px auto', 
-              padding: '20px', 
-              display: 'flex', 
-              flexDirection: 'column', 
-              alignItems: 'center' 
-            }}>
-            <Worker workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
-              <Viewer fileUrl={course.notesUrl1} />
-            </Worker>
-            <a href={course.notesUrl1} target="_blank" rel="noopener noreferrer" style={{ marginTop: '15px', fontWeight: 'bold' }}>
-              View Full PDF (HTML)
-            </a>
+            
+            {/* Independent PDF Container 1 */}
+            <div style={{ 
+                width: '500px', 
+                height: '600px', 
+                border: '2px solid #333', 
+                padding: '20px', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: 'center' 
+              }}>
+              <Worker workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
+                <Viewer fileUrl={course.notesUrl0} />
+              </Worker>
+              <a href={course.notesUrl0} target="_blank" rel="noopener noreferrer" style={{ marginTop: '15px', fontWeight: 'bold' }}>
+                View Full PDF (CSS)
+              </a>
+            </div>
+
+            {/* Independent PDF Container 2 */}
+            <div style={{ 
+                width: '500px', 
+                height: '600px', 
+                border: '2px solid #333', 
+                padding: '20px', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: 'center' 
+              }}>
+              <Worker workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
+                <Viewer fileUrl={course.notesUrl1} />
+              </Worker>
+              <a href={course.notesUrl1} target="_blank" rel="noopener noreferrer" style={{ marginTop: '15px', fontWeight: 'bold' }}>
+                View Full PDF (HTML)
+              </a>
+            </div>
+
           </div>
         </div>
       ))}
