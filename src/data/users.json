@@ -1,0 +1,107 @@
+[
+    {
+      "username": "priya_tomar",
+      "password": "Priya@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS.pdf",
+          "notesUrl1":"notes/HTML.pdf"
+        }
+      ]
+    },
+    {
+      "username": "suhani",
+      "password": "Suhani@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        }
+      ]
+    },
+    {
+      "username": "preeti_roy",
+      "password": "Preeti@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        }
+      ]
+    },
+    {
+      "username": "preeti_roy",
+      "password": "Preeti@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        }
+      ]
+    },
+    {
+      "username": "amit",
+      "password": "Amit@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+          "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        },
+        {
+          "courseName": "C++/DSA",
+          "notesUrl": "/notes/advanced_react.pdf"
+        }
+      ]
+    },
+    {
+      "username": "amit_thakur",
+      "password": "Amit@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        },
+        {
+          "courseName": "C++/DSA",
+          "notesUrl": "/notes/advanced_react.pdf"
+        }
+      ]
+    },
+    {
+      "username": "chandu_yadav",
+      "password": "Chandu@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        },
+        {
+          "courseName": "C++/DSA",
+          "notesUrl": "/notes/advanced_react.pdf"
+        }
+      ]
+    },
+    {
+      "username": "nitin_bhagel",
+      "password": "Nitin@121",
+      "courses": [
+        {
+          "courseName": "Full Stack Development",
+           "notesUrl0": "/notes/CSS",
+          "notesUrl1":"notes/HTML"
+        },
+        {
+          "courseName": "C++/DSA",
+          "notesUrl": "/notes/advanced_react.pdf"
+        }
+      ]
+    }
+  ]
+  
